@@ -113,6 +113,7 @@ The test set can help to avoid the MCP. Obtaining the best model is done with th
 * Matplotlib and Seaborn
 * Jupyter notebooks
 
+Can use Jupiter notebook on Kaggle or Google Colab
 
 
 
