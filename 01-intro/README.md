@@ -107,8 +107,11 @@ The test set can help to avoid the MCP. Obtaining the best model is done with th
 6. Compare the performance metrics of validation and test 
 
 
-
-
+## 1.6 Setting up the Environment
+* Python 3.10 (note that videos use 3.8)
+* NumPy, Pandas and Scikit-Learn (latest available versions) 
+* Matplotlib and Seaborn
+* Jupyter notebooks
 
 
 
