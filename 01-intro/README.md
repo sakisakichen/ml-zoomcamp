@@ -83,7 +83,6 @@ In general, ML projects require many iterations.
 
 ## 1.5 Model Selection Process
 ### Which model to choose?
-
 - Logistic regression
 - Decision tree
 - Neural Network
