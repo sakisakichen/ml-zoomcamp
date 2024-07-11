@@ -353,3 +353,8 @@ inv = np.linalg.inv(V)
 
 ##  1.9 Introduction to Pandas
 
+### DataFrame. 
+It is a two-dimensional table-like structure that allows you to store and manipulate data in a row-column format. You can think of it as a spreadsheet or a SQL table. The DataFrame is designed to handle both homogeneous and heterogeneous data, making it suitable for a wide range of applications.
+
+### Series 
+one-dimensional labeled array. It is similar to a column in a DataFrame and can be used to store and manipulate a single variable. Series are particularly useful when you need to perform operations on a specific column or extract a subset of data from a DataFrame.
