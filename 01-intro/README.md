@@ -348,3 +348,8 @@ V = np.array([
     [0, 2, 1],
 ])
 inv = np.linalg.inv(V)
+~~~~
+
+
+##  1.9 Introduction to Pandas
+
