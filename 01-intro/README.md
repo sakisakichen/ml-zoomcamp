@@ -363,3 +363,5 @@ one-dimensional labeled array. It is similar to a column in a DataFrame and can 
 The numbers in the first column refer to each row (called Index).
 ![image](https://github.com/sakisakichen/ml-zoomcamp/assets/72574733/0eae410e-4fbf-4837-8b42-d4866987bd14)
 
+![image](https://github.com/sakisakichen/ml-zoomcamp/assets/72574733/e1241616-c11a-4ff7-868e-e4eff746a234)
+![image](https://github.com/sakisakichen/ml-zoomcamp/assets/72574733/9bdefa2d-9e6b-47d9-b959-8da3f7ded3fa)
