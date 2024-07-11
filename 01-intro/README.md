@@ -366,4 +366,8 @@ The numbers in the first column refer to each row (called Index).
 ### Element-wise operations
 When looking at data, NaN values can occur. NaN means “not a number”. The following example illustrates this.
 ![image](https://github.com/sakisakichen/ml-zoomcamp/assets/72574733/e1241616-c11a-4ff7-868e-e4eff746a234)
+
+### Filtering 
+Filtering refers to the process of selecting specific rows or columns from a DataFrame based on certain conditions. In Pandas
 ![image](https://github.com/sakisakichen/ml-zoomcamp/assets/72574733/9bdefa2d-9e6b-47d9-b959-8da3f7ded3fa)
+![image](https://github.com/sakisakichen/ml-zoomcamp/assets/72574733/22c69222-0617-499d-ac3c-bb9b64b99021)
