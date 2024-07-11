@@ -358,3 +358,8 @@ It is a two-dimensional table-like structure that allows you to store and manipu
 
 ### Series 
 one-dimensional labeled array. It is similar to a column in a DataFrame and can be used to store and manipulate a single variable. Series are particularly useful when you need to perform operations on a specific column or extract a subset of data from a DataFrame.
+
+### Index 
+The numbers in the first column refer to each row (called Index).
+![image](https://github.com/sakisakichen/ml-zoomcamp/assets/72574733/0eae410e-4fbf-4837-8b42-d4866987bd14)
+
