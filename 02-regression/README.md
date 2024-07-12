@@ -14,3 +14,16 @@ kaggle competition](https://www.kaggle.com/CooperUnion/cardataset).
 * Feature engineering  
 * Regularization 
 * Using the model 
+
+
+## 2.2 Data preparation
+
+**Pandas attributes and methods:** 
+
+* pd.read_csv(<file_path_string>) - read csv files 
+* df.head() - take a look of the dataframe 
+* df.columns - retrieve colum names of a dataframe 
+* df.columns.str.lower() - lowercase all the letters 
+* df.columns.str.replace(' ', '_') - replace the space separator 
+* df.dtypes - retrieve data types of all features 
+* df.index - retrieve indices of a dataframe
