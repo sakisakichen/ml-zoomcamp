@@ -45,3 +45,5 @@ kaggle competition](https://www.kaggle.com/CooperUnion/cardataset).
 * np.log1p() - applies log transformation to a variable and adds one to each result.
 
 Long-tail distributions usually confuse the ML models, so the recommendation is to transform the target variable distribution to a normal one whenever possible. 
+
+
