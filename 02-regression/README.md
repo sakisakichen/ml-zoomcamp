@@ -47,3 +47,17 @@ kaggle competition](https://www.kaggle.com/CooperUnion/cardataset).
 Long-tail distributions usually confuse the ML models, so the recommendation is to transform the target variable distribution to a normal one whenever possible. 
 
 
+## 2.4 Setting up the validation framework
+In general, the dataset is split into three parts: training, validation, and test. For each partition, we need to obtain feature matrices (X) and y vectors of targets. First, the size of partitions is calculated, records are shuffled to guarantee that values of the three partitions contain non-sequential records of the dataset, and the partitions are created with the shuffled indices. 
+
+**Pandas attributes and methods:** 
+
+* `df.iloc[]` - returns subsets of records of a dataframe, being selected by numerical indices
+* `df.reset_index()` - restate the orginal indices 
+* `del df[col]` - eliminates target variable 
+
+**Numpy methods:**
+
+* `np.arange()` - returns an array of numbers 
+* `np.random.shuffle()` - returns a shuffled array
+* `np.random.seed()` - set a seed 
