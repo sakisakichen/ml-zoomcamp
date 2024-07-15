@@ -144,6 +144,9 @@ Calculation of the RMSE on validation partition of the dataset of car price pred
 performance. 
 
 
+## 2.11 Feature engineering
+The feature age of the car was included in the dataset, obtained with the subtraction of the maximum year of cars and each of the years of cars. 
+This new feature improved the model performance, measured with the RMSE and comparing the distributions of y target variable and predictions. 
 
 
 
