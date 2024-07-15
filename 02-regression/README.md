@@ -139,6 +139,9 @@ $$RMSE = \sqrt{ \frac{1}{m} \sum {(g(x_i) - y_i)^2}}$$
 - $m$ is the number of observations in the dataset (i.e. cars)
 
 
+## 2.10 Computing RMSE on validation data
+Calculation of the RMSE on validation partition of the dataset of car price prediction. In this way, we have a metric to evaluate the model's 
+performance. 
 
 
 
