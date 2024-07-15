@@ -153,3 +153,25 @@ This new feature improved the model performance, measured with the RMSE and comp
 Categorical variables are typically strings, and pandas identifies them as object types. These variables need to be converted to a numerical form because ML
 models can interpret only numerical features. It is possible to incorporate certain categories from a feature, not necessarily all of them. 
 This transformation from categorical to numerical variables is known as One-Hot encoding. 
+
+
+## 2.13 Regularization
+If the feature matrix has duplicate columns (or columns that can be expressed as a linear combination of other columns), it will not have an inverse matrix. But, sometimes this error could be passed if certain values are slightly different
+between duplicated columns. 
+
+So, if we apply the normal equation with this feature matrix, the values associated with duplicated columns are very large, which decreases
+the model performance. To solve this issue, one alternative is adding a small number to the diagonal of the feature matrix, which corresponds to regularization. 
+
+This technique 
+works because the addition of small values to the diagonal makes it less likely to have duplicated columns. The regularization value is a hyperparameter of the model. After applying 
+regularization the model performance improved. 
+
+
+## 2.14 Tuning the model
+Tuning the model consisted of finding the best regularization hyperparameter value, using the validation partition of the dataset. The model was then trained with this regularization value. 
+
+
+## 2.15 Using the model
+After finding the best model and its parameters, it was trained with training and validation partitions and the final RMSE was calculated on the test partition. 
+
+Finally, the final model was used to predict the price of new cars. 
