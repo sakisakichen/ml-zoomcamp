@@ -175,3 +175,9 @@ Tuning the model consisted of finding the best regularization hyperparameter val
 After finding the best model and its parameters, it was trained with training and validation partitions and the final RMSE was calculated on the test partition. 
 
 Finally, the final model was used to predict the price of new cars. 
+
+
+## 2.16 Car price prediction project summary
+In summary, this session covered some topics, including data preparation, exploratory data analysis, the validation framework, linear regression model, LR vector and 
+normal forms, the baseline model, root mean squared error, feature engineering, regularization, tuning the model, and using the best model with new data. All these concepts 
+were explained using the problem to predict the price of cars. 
